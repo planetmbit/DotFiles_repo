@@ -33,12 +33,12 @@ alias j='jobs'
 
 alias xt='xterm &'
 
-alias ssh_iMac="ssh jamming6123@SHOUGO-iMAC.local"
-alias ssh_MBPro="ssh jamming6123@SHOUGO-MacBookPro.local"
-alias ssh_JtsnNano="ssh 192.168.203.17"
+alias ssh_iMac="ssh jamming6123@192.168.203.12"
+alias ssh_MBPro="ssh jamming6123@192.168.203.10"
+alias ssh_JtsnNano="ssh jamming6123@192.168.203.17"
 
-alias ping_iMac="ping jamming6123@SHOUGO-iMAC.local"
-alias ping_MBPro="ping jamming6123@SHOUGO-MacBookPro.local"
+alias ping_iMac="ping 192.168.203.12"
+alias ping_MBPro="ping 192.168.203.10"
 alias ping_JtsnNano="ping 192.168.203.17"
 
 
