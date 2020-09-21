@@ -2,7 +2,7 @@
 ###### .bashrc ######
 #####################
 
-export PS1="[jmdbt@\h \W]$ "
+export PS1="[planetmbit@\h \W]$ "
 
 export PATH=/usr/local/bin:$PATH
 export PATH=/Developer/Tools:$PATH
@@ -33,28 +33,13 @@ alias j='jobs'
 
 alias xt='xterm &'
 
-alias ssh_iMac="ssh jamming6123@192.168.203.12"
-alias ssh_MBPro="ssh jamming6123@192.168.203.10"
-alias ssh_JtsnNano="ssh jamming6123@192.168.203.17"
+alias ssh_MBPro="ssh jamming6123@S-MACBOOKPRO.local"
+alias ssh_MBPro-BizT="ssh jamming6123@S-MACBOOKP-BIZT.local"
+alias ssh_MBPro-BizP="ssh jamming6123@S-MACBOOKP-BIZP.local"
+alias ssh_JtsnNano="ssh jetson@192.168.203.34"
 
-alias ping_iMac="ping 192.168.203.12"
-alias ping_MBPro="ping 192.168.203.10"
-alias ping_JtsnNano="ping 192.168.203.17"
+alias ping_MBPro="ping S-MACBOOKPRO.local"
+alias ping_MBPro-BizT="ping S-MACBOOKP-BIZT.local"
+alias ping_MBPro-BizP="ping S-MACBOOKP-BIZP.local"
+alias ping_JtsnNano="ping 192.168.203.34"
 
-
-
-
-##### AWS alias #####
-alias ssh_AWS_madoibit_WebAPP01="ssh -i "/Users/jamming6123/AWS_Practice/madoibit_key.pem" ec2-user@ec2-13-114-89-64.ap-northeast-1.compute.amazonaws.com"
-alias ssh_AWS_madoibit_WebAPP02="ssh -i "/Users/jamming6123/AWS_Practice/madoibit_key.pem" ec2-user@ec2-13-114-245-117.ap-northeast-1.compute.amazonaws.com"
-alias ssh_AWS_madoibit_WebAPP03="ssh WebAPP03-user@ec2-3-113-137-139.ap-northeast-1.compute.amazonaws.com"
-
-alias ping_AWS_madoibit_WebAPP01="ping 13.114.89.64"
-alias ping_AWS_madoibit_WebAPP02="ping 13.114.245.117"
-alias ping_AWS_madoibit_WebAPP03="ping 3.113.137.139"
-
-
-
-##### DataRobot alias #####
-alias ssh_AWS_DR_user24="ssh -i /Users/jamming6123/AI_DataSciense_Practice/50_DataRobot_Training/AWS_login/user24.pem user24@aijhub.datarobot.jp"
-alias ssh_AWS_DR_user16="ssh -i /Users/jamming6123/AI_DataSciense_Practice/50_DataRobot_Training/AWS_login/user16.pem user16@aijhub.datarobot.jp"
