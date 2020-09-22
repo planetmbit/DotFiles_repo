@@ -23,3 +23,7 @@ export PATH="/usr/local/opt/gettext/bin:$PATH"
 #======for jenv======
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+#======for brew doctor======
+alias brew='PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew'
+
