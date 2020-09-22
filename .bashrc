@@ -41,5 +41,6 @@ alias ssh_JtsnNano="ssh jetson@192.168.203.34"
 alias ping_MBPro="ping S-MACBOOKPRO.local"
 alias ping_MBPro-BizT="ping S-MACBOOKP-BIZT.local"
 alias ping_MBPro-BizP="ping S-MACBOOKP-BIZP.local"
+alias ping_MBAir="ping MK-MACBOOKAIR.local"
 alias ping_JtsnNano="ping 192.168.203.34"
 
