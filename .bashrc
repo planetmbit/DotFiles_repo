@@ -2,7 +2,15 @@
 ###### .bashrc ######
 #####################
 
-export PS1="[planetmbit@\h \W]$ "
+#export PS1="[planetmbit@\h \W]$ "
+
+PS1_COLOR_BEGIN="\[\e[1;32m\]"
+PS1_COLOR_END="\[\e[m\]"
+PS1_DirCOLOR_BEGIN="\[\e[1;34m\]"
+PS1_DirCOLOR_END="\[\e[m\]"
+PS1_HOST_NAME="planetmbit@"
+export PS1="[${PS1_COLOR_BEGIN}\${PS1_HOST_NAME}\h${PS1_COLOR_END} ${PS1_DirCOLOR_BEGIN}\W${PS1_DirCOLOR_END}]\\$ "
+
 
 export PATH=/usr/local/bin:$PATH
 export PATH=/Developer/Tools:$PATH
@@ -19,7 +27,7 @@ export HISTCONTROL=ignoreboth
 ## Personal alias ##
 ####################
 
-alias ls='ls -G'
+alias ls='ls -G --color=auto'
 alias ll='ls -lG'
 alias la='ls -aG'
 alias lla='ls -laG'

@@ -2,6 +2,8 @@
 rm -rf ~/.vimrc
 rm -rf ~/.bashrc
 rm -rf ~/.bash_profile
+rm -rf ~/.zshrc
+rm -rf ~/.zprofile
 
 ## vim dotFile ##
 ln -sf ~/DotFiles_repo/.vimrc ~/.vimrc
